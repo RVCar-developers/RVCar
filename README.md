@@ -29,7 +29,7 @@ $ export RISCV=/opt/riscv/rv32i/bin
 
 + clone the RVCar repository 
 ```
-$ git clone https://github.com/knmrtkt/RVCar.git 
+$ git clone https://github.com/RVCar-developers/RVCar.git
 $ cd RVCar
 ```
 
@@ -60,6 +60,7 @@ $ make line
 ### Generate bitstream
 + Copy the verilog files to **hardware** directory and generate bitstream.
 ```
+$ mkdir ../hardware/cnn/
 $ cp -rf sbox/rtl/* ../hardware/cnn/
 $ cd ../hardware
 $ make bit
