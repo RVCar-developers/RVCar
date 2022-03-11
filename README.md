@@ -54,6 +54,7 @@ $ cd RVCar
 
 ```
 $ cd pytorch2hls
+$ mkdir sbox
 $ make line
 ```
 

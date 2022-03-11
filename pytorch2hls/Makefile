@@ -5,9 +5,6 @@ all: csim vsim
 # work dir
 WORK_DIR = sbox
 
-$(WORK_DIR):
-	mkdir -p $(WORK_DIR)
-
 DATASET_TYPE=mnist
 
 MOVIE_DIR = movie
