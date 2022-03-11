@@ -57,7 +57,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-sbox/
+sbox/*
 dataset/
 
 # Byte-compiled / optimized / DLL files
